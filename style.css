@@ -1,0 +1,76 @@
+/* * - seletor universal/global: Utilizamos esse seletor quando queremos aplicar uma ou mais propriedades a todos os elementos da página */
+*{
+    /* margin - controla o espaçamento fora do elemento */
+    margin: 0;
+
+    /* padding - controla o espaçamento dentro do elemento */
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: burlywood;
+    font-family: "Inter", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img {
+ width: 250px;
+ height: 250px;
+ object-fit: cover;
+ border-radius: 125px;
+}
+
+/* group selector - é quando agrupamos elementos diferentes, separados por virgula, que receberam a mesma propriedade */
+h1, 
+p {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 200;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 14px;
+}
+
+a {
+    background-color: blueviolet;
+    text-decoration: none;
+    color: black;
+    border-radius: 16px;
+
+    font-weight: 700;
+
+    height: 48px;
+    width: 300px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: ;
+}
+
+
